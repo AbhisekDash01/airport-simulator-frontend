@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Airport Runway Queue Simulator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!--HEADER-->
+
+    <header>
+
+        <div class="header-left">
+
+            <h1>✈ Airport Runway Queue Simulator</h1>
+
+            <p>
+                Java • Spring Boot • Multithreading • Collections Framework
+            </p>
+
+        </div>
+
+        <button id="themeBtn">
+            🌙 Dark Mode
+        </button>
+
+    </header>
+
+    <!--LAST UPDATED  -->
+
+    <div class="last-updated">
+
+        Last Updated :
+
+        <span id="lastUpdated">
+            --
+        </span>
+
+    </div>
+
+    <div class="controls">
+
+    <button id="startBtn">
+        ▶ Start Simulation
+    </button>
+
+    <button id="stopBtn">
+        ⏹ Stop Simulation
+    </button>
+
+</div>
+
+    <!-- STATS-->
+
+    <section class="stats">
+
+        <div class="card">
+
+            <h3>Waiting Flights</h3>
+
+            <h2 id="waitingCount">0</h2>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Completed Flights</h3>
+
+            <h2 id="completedCount">0</h2>
+
+        </div>
+
+    </section>
+
+    <!-- WAITING TABLE  -->
+
+    <section class="table-section">
+
+        <div class="section-title">
+
+            ⏳ Waiting Flights
+
+        </div>
+
+        <table>
+
+            <thead>
+
+            <tr>
+
+                <th>Flight ID</th>
+
+                <th>Priority</th>
+
+                <th>Status</th>
+
+            </tr>
+
+            </thead>
+
+            <tbody id="waitingTable">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- COMPLETED TABLE  -->
+
+    <section class="table-section">
+
+        <div class="section-title">
+
+            ✅ Completed Flights
+
+        </div>
+
+        <table>
+
+            <thead>
+
+            <tr>
+
+                <th>Flight ID</th>
+
+                <th>Priority</th>
+
+                <th>Status</th>
+
+            </tr>
+
+            </thead>
+
+            <tbody id="completedTable">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    
+
+    <footer>
+
+        <p>
+
+            Developed by Abhisek Dash
+
+        </p>
+
+        <p>
+
+            Airport Runway Queue Simulator © 2026
+
+        </p>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
