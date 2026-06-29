@@ -1,5 +1,5 @@
 
-const API_BASE = "https://airport-simulator-backend-production.up.railway.app";
+const API_BASE = "https://airport-simulator-backend-2.onrender.com";;
 const startBtn=document.getElementById("startBtn");
 
 const stopBtn=document.getElementById("stopBtn");
